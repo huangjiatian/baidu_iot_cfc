@@ -1,13 +1,14 @@
 # baidu_iot_cfc
 ----------
 ###简介
+
 ----------
 该样例代码展示了如何在函数计算（CFC）中，更新物影子属性以及查询并更新TSDB历史数据。
 - 物管理：修改物影子ratio属性
 - TSDB：查询prt并更新pap
 ###步骤
 ----------
-1，下载代码，并替换其中的
+1，下载代码，并替换index.js文件中的
 - baseConfig.credentials.ak: 替换成你的access key
 - baseConfig.credentials.sk: 替换成你的secret key
 - tsdbConfig.endpoint: 换成你自己TSDB的地址，例如： http://mytsdb.tsdb.iot.bj.baidubce.com
