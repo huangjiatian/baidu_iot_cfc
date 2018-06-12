@@ -14,6 +14,7 @@
 - iotdmConfig.endpoint: 按照实际区域选择bj或gz，例如：http://iotdm.bj.baidubce.com
 
 2，将node_modules目录，index.js，iotdm_client.js共计三项压缩成zip
+
 3，登录百度云控制台，创建函数计算（CFC）
 - 填写函数名称
 - 运行语言：node.js 8.x
