@@ -26,6 +26,7 @@ exports.handler = (event, context, callback) => {
 
 	updateRatio(event, iotdmClient, callback);
 	updatePap(event, tsdbClient, callback);
+	callback(null, '{"result": "ok"}');
 };
 
 function calculateAndWritePap(ratio, body, tsdbClient, callback) {
